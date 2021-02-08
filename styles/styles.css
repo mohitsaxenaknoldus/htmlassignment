@@ -1,0 +1,55 @@
+.alignleft {
+	float: left;
+}
+.alignright {
+	float: right;
+}
+mark.green {
+    color: green;
+    background: none;
+}
+mark.blue {
+    color: blue;
+    background: none;
+}
+mark.red {
+    color: red;
+    background: none;
+}
+.ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    clear: both;
+}
+.li {
+    float: left;
+}
+.li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
